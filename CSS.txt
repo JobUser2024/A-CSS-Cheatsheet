@@ -1,0 +1,101 @@
+xCSS in HTML:
+
+<link> - link for your html file to link wit your css file and thats called External CSS
+
+rel - name for link
+
+href - file's link
+
+<style> - a CSS statement inside a HTML doc thats called Internal CSS
+
+CSS - is a styling language that can add textures and edit your text with its size, font type, align, justify etc etc
+
+Inline CSS: is written inside the html code like <h1 style="color: purple">Tovci</h1>
+
+Colors:
+
+background-color: makes a color for the background of the webpage
+
+color: changes the color of the text
+
+
+
+Fonts: 
+
+font-family: changes type of the text 
+
+font-size: changes the size of the text
+
+font-weight: changes the thickness of the text
+
+font-style: changes the appearance of the text
+
+
+Background: 
+
+background: adds a img to your webpage
+
+background-color: makes a color for the background of the webpage
+
+
+Border: is a box that has text in it and can be edited with CSS and border can be selected by the bottom, top, right and left
+
+border-style: the type of what kind of border 
+
+border-width: by how much thicker u want 
+
+border-color: type of color you want
+
+border-radius: by how curved you want for your edges
+
+border: 3px -> is the width, solid -> is the style, violetblue -> is the color
+
+
+Margin & Padding: it creates the space around a element.
+
+margin: as 0px, the element would be equal to the left side, it's wit the top, bottom, left and right and it can be separately
+
+margin: auto -> it wont move, it will stay in the middle of the page
+
+
+Positioning:
+
+height: top & bottom
+
+width: sideways = left and right
+
+Display: the type of way u want your div to be as a block, inline or inline-block
+
+Overflow: it chooses with what type it should be selected for the element below us like hidden, visible, scroll
+
+
+Flexbox: is a box container that contains the width, margin, border and other more which it makes it flexible in one dimension
+
+Flex: we start as our attribute that is "display:" on CSS, so flex that is divided one by one
+
+min-height: the mininium height it should go, (used for align:items)
+
+justify-content: to put at what position our flexbox should be: flex-start, flex-end or center, it can also add spaces like space-around and space-between
+
+align-items: to adjust at which height should it be vertically it can be wit flex-start, flex-end or center
+
+align-content: while shrinking the page, it creates enough space for each flex-box not to be together it also can be wit it can be wit flex-start, flex-end or center
+
+align-self: it adjusts for ONE flexbox for which height should it be vertically it can be wit flex-start, flex-end or center
+
+flex-wrap: it allows the flexbox to be in different sections (vertically and horizontally) while shrinking the page, we use wrap
+
+flex-direction: that directs into a column (vertically) or a row (horziontally)
+
+flex-shrink: doesnt allow or allow to shrink while minimizing or maximizing the page, not allowing to shrink is "0;"
+
+flex-grow: to add more space for the exact of a flexbox that is 1, 2 or 3 or more
+
+flex-basis: it controls the length of a flexbox that is 0
+
+order: it chooses which flexbox should have the same things as 1, 2 or 3 for FB1 - order: 3; and FB2 - order: 1; and FB3 - order: 2;, its a other way of not using your HTML doc for changes
+
+flex: 1 (flex-grow) 0 (flex-shrink) 0px (flex-basis);
+
+
+
